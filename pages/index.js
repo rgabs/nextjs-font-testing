@@ -1,11 +1,15 @@
 import Head from 'next/head'
 
+// href="https://fonts.googleapis.com/css?family=Tangerine&display=optional" />
+
 export default function Home() {
   return (
     <div className="container">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine&display=optional" />
       </Head>
 
       <main>
@@ -60,6 +64,8 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
+
+
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -134,8 +140,7 @@ export default function Home() {
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+          font-family: 'Tangerine', serif;
         }
 
         .grid {
@@ -195,9 +200,8 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
+          font-family: 'Tangerine', serif;
+          // font-display: block;
         }
 
         * {
