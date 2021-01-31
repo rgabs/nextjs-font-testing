@@ -9,7 +9,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" />
+          href="https://fonts.googleapis.com/css?family=Tangerine&display=block" />
       </Head>
 
       <main>
